@@ -2,6 +2,10 @@
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import HelloWorld from './components/HelloWorld.vue';
+import VueComputed from './components/vueComputed.vue';
+import VueRef from './components/vueRef.vue';
+import VueSlot from './components/VueSlot.vue';
+import VueProvideInject from './components/VueProvideInject.vue';
 </script>
 
 <template>
@@ -13,7 +17,11 @@ import HelloWorld from './components/HelloWorld.vue';
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <HelloWorld msg="Vite + Vue" />
+  <!-- <HelloWorld msg="Vite + Vue" /> -->
+  <!-- <VueComputed></VueComputed> -->
+  <!-- <VueRef></VueRef> -->
+  <!-- <VueSlot></VueSlot> -->
+  <VueProvideInject></VueProvideInject>
 </template>
 
 <style scoped>
