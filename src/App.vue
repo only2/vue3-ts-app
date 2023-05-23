@@ -6,6 +6,7 @@ import VueComputed from './components/vueComputed.vue';
 import VueRef from './components/vueRef.vue';
 import VueSlot from './components/VueSlot.vue';
 import VueProvideInject from './components/VueProvideInject.vue';
+import usePinia from './components/usePinia.vue';
 </script>
 
 <template>
@@ -16,12 +17,14 @@ import VueProvideInject from './components/VueProvideInject.vue';
     <a href="https://vuejs.org/" target="_blank">
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
+    <RouterView />
   </div>
-  <!-- <HelloWorld msg="Vite + Vue" /> -->
-  <!-- <VueComputed></VueComputed> -->
-  <!-- <VueRef></VueRef> -->
-  <!-- <VueSlot></VueSlot> -->
+  <HelloWorld msg="Vite + Vue" />
+  <VueComputed></VueComputed>
+  <VueRef></VueRef>
+  <VueSlot></VueSlot>
   <VueProvideInject></VueProvideInject>
+  <usePinia></usePinia>
 </template>
 
 <style scoped>
